@@ -8,8 +8,7 @@ const Tarefas = () => {
     { id: 1, title: 'banana', text: 'oi', feita: false },
     { id: 2, title: 'palavra', text: 'estou aprendendo react', feita: false },
   ])
-
-  // 🔸 Guarda o ID da tarefa que está sendo arrastada
+// 🔸 Guarda o ID da tarefa que está sendo arrastada
   const [draggingId, setDraggingId] = useState(null)
 
   // 🔸 Campos do formulário de criação

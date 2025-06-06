@@ -1,0 +1,5 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Define como a largura e altura da página são calculadas, aumenta a precisão na estilização*/
+}

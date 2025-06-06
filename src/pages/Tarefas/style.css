@@ -1,0 +1,40 @@
+/* Tarefas.css */
+
+.tarefas-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .tarefas-bloco {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid gray;
+    min-height: 200px;
+    background-color: #fff;
+  }
+  
+  .tarefas-bloco.pendentes {
+    border-color: rgb(228, 118, 118);
+    background-color: rgb(255, 249, 249);
+  }
+  
+  .tarefas-bloco.concluidas {
+    border-color: green;
+    background-color: #f0fff0;
+  }
+  
+  .tarefas-form {
+    margin-bottom: 20px;
+  }
+  
+  .tarefas-form input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .tarefas-form button {
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
